@@ -18,5 +18,15 @@
     <ClCompile Include="test.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="testsdl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\Temp\SDL2-devel-2.0.9-VC\SDL2-2.0.9\lib\x86\SDL2.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="..\..\..\Temp\SDL2-devel-2.0.9-VC\SDL2-2.0.9\lib\x86\SDL2.lib" />
+    <Library Include="..\..\..\Temp\SDL2-devel-2.0.9-VC\SDL2-2.0.9\lib\x86\SDL2main.lib" />
   </ItemGroup>
 </Project>
